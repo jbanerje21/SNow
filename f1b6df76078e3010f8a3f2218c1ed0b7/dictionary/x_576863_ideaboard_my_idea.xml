@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My Idea" max_length="40" name="x_576863_ideaboard_my_idea" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Idea" max_length="60" name="idea" type="string"/>
+        <element label="Idea#" max_length="40" name="ideanumber" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_1" type="due_date"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

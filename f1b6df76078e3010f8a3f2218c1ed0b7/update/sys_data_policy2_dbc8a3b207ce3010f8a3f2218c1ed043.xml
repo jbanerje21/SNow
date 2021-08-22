@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_576863_ideaboard_my_idea</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Sets the Idea# field to mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-22 15:37:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbc8a3b207ce3010f8a3f2218c1ed043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Idea# field to mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Idea Board" source="x_576863_ideaboard">f1b6df76078e3010f8a3f2218c1ed0b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Idea Board">f1b6df76078e3010f8a3f2218c1ed0b7</sys_scope>
+        <sys_update_name>sys_data_policy2_dbc8a3b207ce3010f8a3f2218c1ed043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-22 15:37:55</sys_updated_on>
+    </sys_data_policy2>
+</record_update>
